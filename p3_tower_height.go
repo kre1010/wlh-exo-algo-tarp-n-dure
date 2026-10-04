@@ -1,11 +1,11 @@
 package main
 
 func TowerHeightV1(n int) int {
-	var aaa int = 0
+	var qlf int = 0
 	for i := 0; i < n; i++ {
-		aaa += i
+		qlf += i
 	}
-	return aaa
+	return qlf
 }
 
 func TowerHeightV2(n int) int {

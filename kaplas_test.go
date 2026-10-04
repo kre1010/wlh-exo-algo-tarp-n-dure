@@ -14,5 +14,6 @@ func BenchmarkSmallest(b *testing.B) {
 				sink = SmallestV1(pile)
 			}
 		})
+		// ajoutez ici un b.Run pour chaque nouvelle version
 	}
 }
