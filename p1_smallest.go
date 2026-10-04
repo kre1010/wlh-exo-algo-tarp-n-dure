@@ -10,6 +10,3 @@ func SmallestV1(pile []int) int {
 	}
 	return min
 }
-
-
-
